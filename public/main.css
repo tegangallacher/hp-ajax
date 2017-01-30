@@ -1,0 +1,64 @@
+/*main{
+  width: 300px;
+  margin: 0 auto;
+}
+
+input{
+  padding: 10px;
+  border-radius: 5px;
+  width: 400px;
+  font-size: 22px;
+  margin: 10px;
+}*/
+
+body{
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAARwAAACxCAMAAAAh3/JWAAAAh1BMVEVyBiAAAAB1BiF3BiFxACBfBRtlBRxrBR4bAQcjAQlbBRlUBBdAAxFEAxM3Aw9hBRtNBBUVAQYuAg0IAAEQAQRSBBcnAQo8AxFCAxFMBBUxAg3hwyb/8iiTSiFoAB+jZiPy2ifduSacXCL75Sh7HCCOQCHt0yd+JiGtdyO2gyRqACCDIyG0eyOABFKxAAACA0lEQVR4nO3Y25aaQBCFYaqak4CA6AzCOE5iMoeYvP/zBQ2axsjtQFb/35X08qLdq6q60fMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAufH9qXcwX/7hnXRGHD92lM6Y/duP49R7mCv/dfeTthpx/PV190w4I/YvT/up9zBbxy9PBypnhDl8+044I/zXD06rMf5zNPUWZoyeGlI1qveW9d6yU0xU1m2Wejc5qCbLNm9CM82uZkGjSuJ8225kOVwvZV1ts4XEobPVo4G0oTn1VbCK7VFcSeqd1qNMHlxNJ5Sm7xv12tV1WbvPfSQmkdTNdDSurZkSZ30Kmkp0DcQ8yGdvaxY0sX+3FpcnI6VVLLpYulg6prULxzOrfrwUYo8fTdcuHllGErsmtK7NWRoP0gid7CsjwSCcUnrVIJxIwk/e2BzcVs7ysQg6Rba4CcfF9y2zaHT4eA5lOKdPjy7OHC1XdjjX9tFBRZk8d/G08jz7+mvySzfpNv77le6Ed3HknG97xaVlTGONlk19CU2jdeZm4XQzuKudP/9NZFYvaShVZE7Lpnv5mnKDk+pqZ9UkQZrJxn791uhR8jRIyoU4eT3uqdcFIOsqvTmRTJFvROJl5HA2HT3fiv/NQO8vAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACA/9BvA50Orpai9YUAAAAASUVORK5CYII=);
+
+}
+
+p{
+  font-family: helvetica;
+  font-size: 10px; 
+}
+
+button {
+  display: inline-block;
+  padding: 10px;
+      margin: auto;
+}
+
+#characters{
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: left;
+  /*align-content: center*/;
+}
+
+#g-button{
+  background:url(http://vignette4.wikia.nocookie.net/pottermore/images/1/16/Gryffindor_crest.png/revision/latest?cb=20111112232412);
+  border:none;
+  width:217px;
+  height:238px;
+}
+
+#h-button{
+  background:url(http://vignette3.wikia.nocookie.net/pottermore/images/5/5e/Hufflepuff_crest.png/revision/latest?cb=20111112232427);
+  border:none;
+  width:204px;
+  height:240px;
+}
+
+#r-button{
+  background:url(http://vignette3.wikia.nocookie.net/pottermore/images/4/4f/Ravenclaw_crest.png/revision/latest?cb=20111112232334);
+  border:none;
+  width:223px;
+  height:230px;
+}
+
+#s-button{
+  background:url(http://vignette1.wikia.nocookie.net/pottermore/images/4/45/Slytherin_Crest.png/revision/latest?cb=20111112232353);
+  border:none;
+  width:208px;
+  height:241px;
+}
